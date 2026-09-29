@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <header class="header">
+            <h1>Sudoku</h1>
+            <div class="controls">
+                <div class="difficulty-group">
+                    <button class="btn-diff active" data-level="latwy">Łatwy</button>
+                    <button class="btn-diff" data-level="sredni">Średni</button>
+                    <button class="btn-diff" data-level="trudny">Trudny</button>
+                </div>
+                <button id="btn-restart" class="btn-action">Nowa gra</button>
+            </div>
+        </header>
+
+        <table id="tablica"></table>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
